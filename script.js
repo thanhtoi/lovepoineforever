@@ -1,7 +1,10 @@
 
+
+
 MorphSVGPlugin.convertToPath('polygon');
 var xmlns = "http://www.w3.org/2000/svg",
   xlinkns = "http://www.w3.org/1999/xlink",
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
 select = function(s) {
     return document.querySelector(s);
   },
@@ -20,7 +23,7 @@ select = function(s) {
  // particleTypeArray = ['#star'],
   particlePool = [],
   particleCount = 0,
-  numParticles = 250
+  numParticles = 800
 
 
 gsap.set('svg', {
