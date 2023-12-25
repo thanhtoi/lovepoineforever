@@ -20,7 +20,7 @@ select = function(s) {
  // particleTypeArray = ['#star'],
   particlePool = [],
   particleCount = 0,
-  numParticles = 350
+  numParticles = 250
 
 
 gsap.set('svg', {
