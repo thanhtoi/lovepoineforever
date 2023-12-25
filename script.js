@@ -2,9 +2,10 @@
 
 
 MorphSVGPlugin.convertToPath('polygon');
-var xmlns = "http://www.w3.org/2000/svg",
-  xlinkns = "http://www.w3.org/1999/xlink",
-  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+//var xmlns = "http://www.w3.org/2000/svg",
+  //xlinkns = "http://www.w3.org/1999/xlink",
+  var src="https://assets.codepen.io/16327/Physics2DPlugin3.min.js",
+  
 select = function(s) {
     return document.querySelector(s);
   },
